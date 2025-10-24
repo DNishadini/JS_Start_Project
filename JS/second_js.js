@@ -1,0 +1,1 @@
+document.getElementById('second').style.color ='red'
