@@ -59,7 +59,7 @@ getTotal(12,15)*/
 getSumofTwoNum(12,30)*/
 
 //TRADITIONAL & ARROW function using ONE PARAMETER
-function readname(name){
+/*function readname(name){
     console.log(name)
 }
 getName('Kalpana')
@@ -67,4 +67,34 @@ getName('Kalpana')
 const showName = name =>{
     console.log(name)
 }
-showName('Shaluka')
+showName('Shaluka')*/
+
+//RETURN KEYWORD
+/*function printName(myName){
+    return myName + ' ' +'Udara'
+}
+
+console.log(printName('Kalpana'))
+
+function getTotal(num1,num2){
+    return num1 + num2
+}
+
+const total = getTotal(20,30)
+console.log(total)*/
+
+// const getTotal = (num1,num2) => {
+//     return num1 + num2
+// }
+// OR
+// const getTotal = (num1,num2) => 
+//      num1 + num2
+
+// const total = getTotal(20,30)
+// console.log(total)
+
+const getTotal = (num1,num2=10) => 
+      num1 + num2
+
+ const total = getTotal(20)
+ console.log(total)
