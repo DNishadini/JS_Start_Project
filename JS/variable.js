@@ -53,3 +53,26 @@ function getMyName(){
 }
 
 getMyName()
+
+//const hoisting
+
+//we must assign the value at the stating declaration
+const myAge=50;
+function getMyName(){
+    //remaking myAge variable
+    const myAge = 100
+    console.log(myWeight)
+}
+
+getMyName()
+
+//can't declare and reassign the same scope
+const myAge=50
+myAge = 100
+function getMyName(){
+    
+    
+    console.log(myWeight)
+}
+
+getMyName()
